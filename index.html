@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"type="text/css" href="./css/style.css" title="base">
+    <title>Used Cars</title>
+</head>
+<body>
+    <header>
+        <h1>Used Car Dealership</h1>
+    </header>
+    <main>
+         <div class="filters">
+            <label for="make">Make:</label>
+            <select id="make">
+                <option value="all">All Makes</option>
+                <option value="Toyota">Toyota</option>
+                <option value="Honda">Honda</option>
+                <option value="Ford">Ford</option>
+                <option value="Nissan">Nissan</option>
+                <option value="Chevrolet">Chevrolet</option>
+                <option value="Volkswagen">Volkswagen</option>
+                <option value="Hyundai">Hyuandi</option>
+                <option value="Subaru">Subaru</option>
+                <option value="Mazda">Mazda</option>
+                <option value="Kia">Kia</option>
+                <option value="Dodge">Dodge</option>
+                <option value="Cadillac">Cadillac</option>
+                <option value="Jaguar">Jaguar</option>
+                <option value="Tesla">Tesla</option>
+                <option value="Porsche">Porsche</option>
+                <option value="Lexus">Lexus</option>
+                <option value="BMW">BMW</option>
+                
+              
+            </select>
+            <label for="price">Price:</label>
+            <select id="price">
+                <option value="all">All Prices</option>
+                <option value="5000">Less than $5000</option>
+                <option value="10000">Less than $10000</option>
+                <option value="15000">Less than $15000</option>
+                <option value="20000">Less than $20000</option>
+                <option value="25000">Less than $25000</option>
+                <option value="30000">Less than $30000</option>
+                <option value="35000">Less than $35000</option>
+                <option value="40000">Less than $40000</option>
+                <option value="45000">Less than $45000</option>
+                <option value="50000">Less than $50000</option>
+                <option value="55000">Less than $55000</option>
+                <option value="60000">Less than $60000</option>
+                <option value="65000">Less than $65000</option>
+                <option value="70000">Less than $70000</option>
+            </select>  
+                <label for="year">Year:</label>
+                <select id="year">
+                    <option value="all">All Years</option>
+                    <option value="2014">2014</option>
+                    <option value="2015">2015</option>
+                    <option value="2016">2016</option>
+                    <option value="2017">2017</option>
+                    <option value="2018">2018</option>
+                    <option value="2019">2019</option>
+                    <option value="2020">2020</option>
+            
+            </select>  
+            <label for="maxMileage">Max Mileage:</label>
+                <select id="maxMileage">
+                    <option value="all">All Mileages</option>
+                    <option value="25000">Under 25,000 miles</option>
+                    <option value="30000">Under 30,000 miles</option>
+                    <option value="35000">Under 35,000 miles</option>
+                    <option value="40000">Under 40,000 miles</option>
+                    <option value="45000">Under 45,000 miles</option>
+                    <option value="50000">Under 50,000 miles</option>
+                    <option value="55000">Under 55,000 miles</option>
+                    <option value="60000">Under 60,000 miles</option>
+                    <option value="65000">Under 65,000 miles</option>
+                    <option value="70000">Under 70,000 miles</option>
+                </select>
+                <label for="color">Color:</label>
+                    <select id="color">
+                        <option value="all">All Colors</option>
+                        <option value="White">White</option>
+                        <option value="Silver">Silver</option>
+                        <option value="Black">Black</option>
+                        <option value="Blue">Blue</option>
+                        <option value="Red">Red</option>
+                        <option value="Green">Green</option>
+                        <option value="Gray">Gray</option>
+                    </select>
+        </div>
+        <div class="car-list">
+            <div id="cars">
+            </div>
+        </div>
+    </main>
+    <script src="./js/usedCars.js"></script>
+</body>
+</html>
